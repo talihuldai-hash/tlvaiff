@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tel Aviv AI Film Festival</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Anton&family=Heebo:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body dir="ltr">
+
+<nav>
+  <div class="brand">TEL AVIV AI FILM FESTIVAL</div>
+  <div class="right">
+    <div class="links">
+      <a href="#about"><span class="en">About</span><span class="heb">אודות</span></a>
+      <a href="#delegation"><span class="en">Delegation</span><span class="heb">משלחת</span></a>
+      <a href="#awards"><span class="en">Awards</span><span class="heb">פרסים</span></a>
+      <a href="#submit"><span class="en">Submit</span><span class="heb">הגשה</span></a>
+    </div>
+    <button class="lang" onclick="toggleLang()"><span class="en">עברית</span><span class="heb">EN</span></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <!-- To add a background video: drop hero.mp4 in assets/ and uncomment the line below -->
+  <!-- <video class="bgvideo" autoplay muted loop playsinline src="assets/hero.mp4"></video> -->
+  <span class="float a">AI</span>
+  <span class="float b">CINEMA</span>
+  <div class="kicker"><span class="en">Nov 10–11, 2026 · Tel Aviv</span><span class="heb">10–11 בנובמבר 2026 · תל אביב</span></div>
+  <div class="giant en">
+    <span class="line"><span>TEL AVIV</span></span>
+    <span class="line"><span class="fx">AI FILM</span></span>
+    <span class="line"><span class="out">FESTIVAL</span></span>
+  </div>
+  <div class="giant heb-block" style="display:none">
+    <span class="line"><span>פסטיבל</span></span>
+    <span class="line"><span class="fx">הקולנוע ה-AI</span></span>
+    <span class="line"><span class="out">של תל אביב</span></span>
+  </div>
+  <div class="meta">
+    <div><b><span class="en">First Edition</span><span class="heb">מהדורה ראשונה</span></b> · <span class="en">Screenings · Competition · Panels</span><span class="heb">הקרנות · תחרות · פאנלים</span></div>
+    <div><span class="en">The first Israel–India creative bridge in AI cinema</span><span class="heb">גשר יצירתי ראשון בין ישראל להודו בקולנוע ה-AI</span></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="track">
+    <span>SCREENINGS</span><span class="o">★</span><span>COMPETITION</span><span class="o">★</span><span>PANELS</span><span class="o">★</span><span>ISRAEL × INDIA</span><span class="o">★</span>
+    <span>SCREENINGS</span><span class="o">★</span><span>COMPETITION</span><span class="o">★</span><span>PANELS</span><span class="o">★</span><span>ISRAEL × INDIA</span><span class="o">★</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="block" id="about">
+  <div class="reveal">
+    <div class="eyebrow"><span class="en">The Bridge</span><span class="heb">הגשר</span></div>
+    <h2 class="big-head"><span class="en">Where AI<br>meets cinema</span><span class="heb-block" style="display:none">כאן ה-AI<br>פוגש קולנוע</span></h2>
+    <p class="lead">
+      <span class="en">A first-edition festival celebrating AI-driven filmmaking, and the first creative bridge between Israel and India. Screenings, a competition, and a panel event — clear scope, nothing inflated.</span>
+      <span class="heb">פסטיבל במהדורתו הראשונה, החוגג יצירה קולנועית מבוססת AI ובונה גשר יצירתי ראשון בין ישראל להודו. הקרנות, תחרות ואירוע פאנלים — היקף ברור, בלי הגזמות.</span>
+    </p>
+  </div>
+</section>
+
+<!-- DELEGATION -->
+<section class="block" id="delegation">
+  <div class="reveal">
+    <div class="eyebrow"><span class="en">Delegation 2026</span><span class="heb">המשלחת 2026</span></div>
+    <h2 class="big-head"><span class="en">The Guests</span><span class="heb-block" style="display:none">האורחים</span></h2>
+    <div class="grid">
+      <!-- To add a photo: add style="background-image:url('assets/delegation/aashay.jpg')" to the card -->
+      <div class="card"><span class="num">01</span><h4>Aashay Singh</h4><p>GRAiL</p></div>
+      <div class="card"><span class="num">02</span><h4>Sheetal Shinde</h4><p>Adobe Firefly Ambassador</p></div>
+      <div class="card"><span class="num">03</span><h4>Rahul Regulapati</h4><p>Galleri5 / Collective</p></div>
+      <div class="card"><span class="num">04</span><h4>Firoz Merchant</h4><p>Phenomenal AI / IAIFA</p></div>
+      <div class="card"><span class="num">05</span><h4>Amita Madhvani</h4><p>Ram Madhvani Films / Equinox</p></div>
+      <div class="card"><span class="num">06</span><h4>Ram Madhvani</h4><p>Ram Madhvani Films</p></div>
+      <div class="card tbd"><p><span class="en">JURY TO BE<br>ANNOUNCED</span><span class="heb-block" style="display:none">חבר השופטים<br>יוכרז בקרוב</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section class="block" id="showcase">
+  <div class="reveal">
+    <div class="pill"><span class="en">Non-competitive</span><span class="heb">לא תחרותי</span></div>
+    <div class="eyebrow"><span class="en">Showcase</span><span class="heb">מיצג</span></div>
+    <h2 class="big-head"><span class="en">Films on<br>the screen</span><span class="heb-block" style="display:none">הסרטים<br>על המסך</span></h2>
+    <p class="lead">
+      <span class="en">A curated showcase of AI-driven work, presented outside the competition. A space to watch, meet, and exchange — not to rank.</span>
+      <span class="heb">מיצג אוצרותי של יצירה מבוססת AI, המוצג מחוץ לתחרות. מרחב לצפייה, מפגש והחלפה — לא לדירוג.</span>
+    </p>
+  </div>
+</section>
+
+<!-- AWARDS -->
+<section class="block" id="awards">
+  <div class="reveal">
+    <div class="eyebrow"><span class="en">Awards</span><span class="heb">פרסים</span></div>
+    <h2 class="big-head"><span class="en">Four<br>categories</span><span class="heb-block" style="display:none">ארבע<br>קטגוריות</span></h2>
+    <div class="cols">
+      <div class="tile"><span class="n">01</span><h4><span class="en">Best Film</span><span class="heb">הסרט הטוב ביותר</span></h4><p><span class="en">In-kind award</span><span class="heb">פרס in-kind</span></p></div>
+      <div class="tile"><span class="n">02</span><h4><span class="en">Best Direction</span><span class="heb">הבימוי הטוב ביותר</span></h4><p><span class="en">In-kind award</span><span class="heb">פרס in-kind</span></p></div>
+      <div class="tile"><span class="n">03</span><h4><span class="en">Best Craft</span><span class="heb">המלאכה הטובה ביותר</span></h4><p><span class="en">In-kind award</span><span class="heb">פרס in-kind</span></p></div>
+      <div class="tile"><span class="n">04</span><h4><span class="en">Emerging Voice</span><span class="heb">קול חדש</span></h4><p><span class="en">In-kind award</span><span class="heb">פרס in-kind</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="block" id="partners">
+  <div class="reveal">
+    <div class="eyebrow"><span class="en">Partners</span><span class="heb">שותפים</span></div>
+    <h2 class="big-head"><span class="en">With<br>support from</span><span class="heb-block" style="display:none">בתמיכת</span></h2>
+    <div class="partners">
+      <div class="plogo">Artlist</div>
+      <div class="plogo">Lightricks</div>
+      <div class="plogo">Embassy of India</div>
+      <div class="plogo">Ir Olam</div>
+      <div class="plogo">Taasiya</div>
+    </div>
+  </div>
+</section>
+
+<!-- SUBMIT -->
+<section class="cta reveal" id="submit">
+  <div class="eyebrow" style="justify-content:center"><span class="en">Open Call</span><span class="heb">קול קורא</span></div>
+  <h2 class="big-head"><span class="en">Submit<br>your film</span><span class="heb-block" style="display:none">הגישו<br>את הסרט</span></h2>
+  <div>
+    <a href="#" class="btn"><span class="en">Enter on FilmFreeway →</span><span class="heb">להגשה ב-FilmFreeway ←</span></a>
+  </div>
+  <div>
+    <a href="#" class="btn ghost"><span class="en">Get Tickets</span><span class="heb">רכישת כרטיסים</span></a>
+  </div>
+</section>
+
+<footer>
+  <div><b>TEL AVIV AI FILM FESTIVAL</b><br><span class="en">Nov 10–11, 2026 · Tel Aviv</span><span class="heb">10–11 בנובמבר 2026 · תל אביב</span></div>
+  <div><span class="en">Part of AI Week Tel Aviv · Nov 9–11, 2026</span><span class="heb">כחלק מ-AI Week תל אביב · 9–11 בנובמבר 2026</span></div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
